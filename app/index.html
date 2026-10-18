@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FAF7F2">
+<meta name="description" content="БигльКорм — породный рацион для биглей. Корма для щенков, взрослых и пожилых собак, разработанные совместно с ветеринарами-диетологами. Бесподбор рациона под вес и активность.">
+<title>БигльКорм — питание, созданное специально для биглей</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='47' r='31' fill='%23D4A574'/%3E%3Cellipse cx='37' cy='43' rx='3.6' ry='3.6' fill='%233E2723'/%3E%3Cellipse cx='63' cy='43' rx='3.6' ry='3.6' fill='%233E2723'/%3E%3Cpath d='M50 64v4' stroke='%233E2723' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<!-- ============================================================
+     INLINE SVG-СПРАЙТ: иконки, мордочка бигля, упаковка корма
+     ============================================================ -->
+<svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+  <symbol id="i-paw" viewBox="0 0 24 24">
+    <g fill="currentColor" stroke="none">
+      <ellipse cx="5.6" cy="10" rx="2.1" ry="2.7" transform="rotate(-18 5.6 10)"/>
+      <ellipse cx="9.6" cy="6.4" rx="2.1" ry="2.8"/>
+      <ellipse cx="14.4" cy="6.4" rx="2.1" ry="2.8"/>
+      <ellipse cx="18.4" cy="10" rx="2.1" ry="2.7" transform="rotate(18 18.4 10)"/>
+      <path d="M12 11.2c-3.1 0-6.1 3.3-6.1 6.1 0 2 1.6 3.2 3.6 3.2 1.1 0 1.7-.5 2.5-.5s1.4.5 2.5.5c2 0 3.6-1.2 3.6-3.2 0-2.8-3-6.1-6.1-6.1Z"/>
+    </g>
+  </symbol>
+
+  <symbol id="i-leaf" viewBox="0 0 24 24">
+    <path d="M20 4C10 4 4 9 4 15c0 3 2 5 5 5 6 0 11-6 11-16Z"/>
+    <path d="M4 20 14 10"/>
+  </symbol>
+
+  <symbol id="i-scale" viewBox="0 0 24 24">
+    <rect x="3" y="3" width="18" height="18" rx="5"/>
+    <path d="M7 16a5 5 0 0 1 10 0"/>
+    <path d="m12 14 3.2-3.6"/>
+    <circle cx="12" cy="14" r="1.2"/>
+  </symbol>
+
+  <symbol id="i-bolt" viewBox="0 0 24 24">
+    <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/>
+  </symbol>
+
+  <symbol id="i-shield" viewBox="0 0 24 24">
+    <path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6l-8-3Z"/>
+    <path d="m9 12 2 2 4-4"/>
+  </symbol>
+
+  <symbol id="i-heart" viewBox="0 0 24 24">
+    <path d="M12 20s-7-4.6-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.4-7 10-7 10Z"/>
+  </symbol>
+
+  <symbol id="i-stethoscope" viewBox="0 0 24 24">
+    <path d="M5 3v5a4 4 0 0 0 8 0V3"/>
+    <path d="M5 3H3m10 0h2"/>
+    <path d="M9 12v3a5 5 0 0 0 10 0v-2"/>
+    <circle cx="19" cy="9" r="2.5"/>
+  </symbol>
+
+  <symbol id="i-bowl" viewBox="0 0 24 24">
+    <path d="M3 11h18c0 5-4 8-9 8s-9-3-9-8Z"/>
+    <path d="M7 7c0-2 2-2 2-4M12 7c0-2 2-2 2-4M17 7c0-2 2-2 2-4"/>
+  </symbol>
+
+  <symbol id="i-joints" viewBox="0 0 24 24">
+    <circle cx="6.5" cy="6.5" r="3.5"/>
+    <circle cx="17.5" cy="17.5" r="3.5"/>
+    <path d="m9 9 6 6"/>
+    <path d="M15 5h5M17.5 2.5v5M4 15v5M1.5 17.5h5"/>
+  </symbol>
+
+  <symbol id="i-meat" viewBox="0 0 24 24">
+    <path d="M15.5 3a6 6 0 0 0-6 6c0 1 .2 1.9.7 2.7L5 17a2.6 2.6 0 1 0 2.6 2.6l5.3-5.2c.8.5 1.7.7 2.7.7a6 6 0 0 0-.1-12.1Z"/>
+    <path d="m4.5 19.5 2-2"/>
+  </symbol>
+
+  <symbol id="i-fish" viewBox="0 0 24 24">
+    <path d="M2 12s4-6 10-6c4 0 7 3 9 6-2 3-5 6-9 6-6 0-10-6-10-6Z"/>
+    <path d="m17 8 4-3v14l-4-3"/>
+    <circle cx="8" cy="11" r="1"/>
+  </symbol>
+
+  <symbol id="i-wheat" viewBox="0 0 24 24">
+    <path d="M12 22V9"/>
+    <path d="M12 9C8 9 6 6 6 3c4 0 6 3 6 6Zm0 0c4 0 6-3 6-6-4 0-6 3-6 6Zm0 6c-4 0-6-3-6-6 4 0 6 3 6 6Zm0 0c4 0 6-3 6-6-4 0-6 3-6 6Z"/>
+  </symbol>
+
+  <symbol id="i-check" viewBox="0 0 24 24">
+    <path d="m5 12 4 4L19 6"/>
+  </symbol>
+
+  <symbol id="i-arrow" viewBox="0 0 24 24">
+    <path d="M4 12h16M14 6l6 6-6 6"/>
+  </symbol>
+
+  <symbol id="i-chevron" viewBox="0 0 24 24">
+    <path d="m9 5 7 7-7 7"/>
+  </symbol>
+
+  <symbol id="i-close" viewBox="0 0 24 24">
+    <path d="M6 6l12 12M18 6 6 18"/>
+  </symbol>
+
+  <symbol id="i-plus" viewBox="0 0 24 24">
+    <path d="M12 5v14M5 12h14"/>
+  </symbol>
+
+  <symbol id="i-minus" viewBox="0 0 24 24">
+    <path d="M5 12h14"/>
+  </symbol>
+
+  <symbol id="i-star" viewBox="0 0 24 24">
+    <path fill="currentColor" stroke="none" d="m12 2.5 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3 1.1-6.5L2.6 9.3l6.5-.9L12 2.5Z"/>
+  </symbol>
+
+  <symbol id="i-stars" viewBox="0 0 100 20">
+    <use href="#i-star" x="0"  y="1" width="18" height="18"/>
+    <use href="#i-star" x="20" y="1" width="18" height="18"/>
+    <use href="#i-star" x="40" y="1" width="18" height="18"/>
+    <use href="#i-star" x="60" y="1" width="18" height="18"/>
+    <use href="#i-star" x="80" y="1" width="18" height="18"/>
+  </symbol>
+
+  <symbol id="i-phone" viewBox="0 0 24 24">
+    <path d="M6 3h3l2 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 4 5a2 2 0 0 1 2-2Z"/>
+  </symbol>
+
+  <symbol id="i-mail" viewBox="0 0 24 24">
+    <rect x="3" y="5" width="18" height="14" rx="3"/>
+    <path d="m4 7 8 6 8-6"/>
+  </symbol>
+
+  <symbol id="i-pin" viewBox="0 0 24 24">
+    <path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/>
+    <circle cx="12" cy="10" r="2.5"/>
+  </symbol>
+
+  <symbol id="i-clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"/>
+    <path d="M12 7v5l3.5 2"/>
+  </symbol>
+
+  <symbol id="i-telegram" viewBox="0 0 24 24">
+    <path fill="currentColor" stroke="none" d="M21.5 4.3 2.9 11.2c-1.2.5-1.2 1.1-.2 1.4l4.7 1.5 1.8 5.5c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.5c.3-1.2-.4-1.8-1.3-1.6ZM9.2 14.5l8.6-5.4c.4-.2.8-.1.5.2l-7.4 6.7-.3 3-1.4-4.5Z"/>
+  </symbol>
+
+  <symbol id="i-vk" viewBox="0 0 24 24">
+    <rect x="2" y="4" width="20" height="16" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    <text x="12" y="15.5" text-anchor="middle" font-family="inherit" font-size="9" font-weight="800" fill="currentColor" stroke="none">VK</text>
+  </symbol>
+
+  <symbol id="i-youtube" viewBox="0 0 24 24">
+    <rect x="2.5" y="5.5" width="19" height="13" rx="4"/>
+    <path d="m10 9.5 5 2.5-5 2.5v-5Z" fill="currentColor" stroke="none"/>
+  </symbol>
+
+  <!-- Мордочка бигля: используется в логотипе, аватарах и на упаковке -->
+  <symbol id="beagle-face" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="47" rx="31" ry="29" fill="#D4A574"/>
+    <path d="M25 30C11 30 8 47 12 65c3 13 15 14 18 2l3-27c1-7-2-10-8-10Z" fill="#8A5230"/>
+    <path d="M75 30c14 0 17 17 13 35-3 13-15 14-18 2l-3-27c-1-7 2-10 8-10Z" fill="#8A5230"/>
+    <path d="M44 20q6-3 12 0l5 37q-11 8-22 0l5-37Z" fill="#FFF8EE"/>
+    <ellipse cx="50" cy="61" rx="21" ry="15" fill="#FFF8EE"/>
+    <circle cx="37" cy="43" r="3.6" fill="#3E2723"/>
+    <circle cx="63" cy="43" r="3.6" fill="#3E2723"/>
+    <circle cx="38.2" cy="41.8" r="1.2" fill="#FFF8EE"/>
+    <circle cx="64.2" cy="41.8" r="1.2" fill="#FFF8EE"/>
+    <path d="M43 55q7-4 14 0c0 6-4 9-7 9s-7-3-7-9Z" fill="#3E2723"/>
+    <path d="M50 64v4m0 0q-6 6-11 1m11-1q6 6 11 1" fill="none" stroke="#3E2723" stroke-width="2" stroke-linecap="round"/>
+    <path d="M29 34q5-4 10-2M61 32q5-2 10 2" fill="none" stroke="#A65D32" stroke-width="2.4" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Упаковка корма: цвет задаётся через currentColor -->
+  <symbol id="bag" viewBox="0 0 160 200">
+    <path d="M28 20h104l8 24v130a12 12 0 0 1-10 12H30a12 12 0 0 1-10-12V44l8-24Z" fill="currentColor"/>
+    <path d="M28 20h104l4 13H24l4-13Z" fill="#2C1810" opacity=".2"/>
+    <rect x="24" y="33" width="112" height="9" rx="3" fill="#FFF8EE" opacity=".38"/>
+    <path d="M20 44h9v130H30a12 12 0 0 1-10-12V44Z" fill="#2C1810" opacity=".1"/>
+    <rect x="34" y="58" width="92" height="110" rx="12" fill="#FFF8EE"/>
+    <use href="#beagle-face" x="52" y="66" width="56" height="56"/>
+    <rect x="48" y="130" width="64" height="8" rx="4" fill="currentColor"/>
+    <rect x="58" y="145" width="44" height="5" rx="2.5" fill="#D4A574"/>
+    <circle cx="120" cy="180" r="3" fill="#FFF8EE" opacity=".5"/>
+  </symbol>
+
+</defs>
+</svg>
+
+<!-- ============================================================
+     БЛОК 1. ШАПКА / НАВИГАЦИЯ
+     ============================================================ -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="#top" aria-label="БигльКорм — на главную">
+      <span class="logo-mark">
+        <svg class="logo-face" viewBox="0 0 100 100" aria-hidden="true"><use href="#beagle-face"/></svg>
+      </span>
+      <span class="logo-text">БигльКорм<span class="logo-sub">породный рацион</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Основная навигация">
+      <a href="#about">О бренде</a>
+      <a href="#benefits">Преимущества</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <button class="btn btn--primary header-cta" type="button" data-quiz>Подобрать корм</button>
+
+    <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ==========================================================
+       БЛОК 2. HERO
+       ========================================================== -->
+  <section class="hero" id="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Рацион, разработанный для породы</p>
+
+        <h1 id="hero-title">Питание, созданное специально <span class="underline">для биглей<svg viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true"><path d="M3 11Q150 1 297 9" fill="none" stroke="#D4A574" stroke-width="7" stroke-linecap="round" opacity=".65"/></svg></span></h1>
+
+        <p class="hero-lead">Бигль всегда голодный. Это не вредность — это генетика. Мы создали корм, который насыщает, держит вес в норме и бережёт чувствительное пищеварение.</p>
+
+        <div class="hero-actions">
+          <button class="btn btn--primary btn--lg" type="button" data-quiz>
+            Подобрать рацион
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </button>
+          <a class="btn btn--ghost btn--lg" href="#catalog">Смотреть каталог</a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="avatar-stack" aria-hidden="true">
+            <span><svg viewBox="0 0 100 100"><use href="#beagle-face"/></svg></span>
+            <span><svg viewBox="0 0 100 100"><use href="#beagle-face"/></svg></span>
+            <span><svg viewBox="0 0 100 100"><use href="#beagle-face"/></svg></span>
+          </div>
+          <div>
+            <svg class="stars-icon" viewBox="0 0 100 20" role="img" aria-label="Рейтинг 4,9 из 5"><use href="#i-stars"/></svg>
+            <p><strong>4,9 / 5</strong> — так оценили нас 386 владельцев биглей</p>
+          </div>
+        </div>
+
+        <p class="hero-note">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-leaf"/></svg>
+          Бесплатный подбор рациона · Доставка по всей России
+        </p>
+      </div>
+
+      <!-- Тёплая авторская иллюстрация бигля с миской -->
+      <div class="hero-art">
+        <svg class="hero-scene" viewBox="0 0 560 600" role="img" aria-labelledby="scene-title">
+          <title id="scene-title">Иллюстрация: рыже-бело-коричневый бигль сидит рядом с полной миской корма</title>
+
+          <!-- Фон -->
+          <circle cx="285" cy="285" r="228" fill="#F0E3D0"/>
+          <circle cx="285" cy="285" r="196" fill="#F5EDE0"/>
+
+          <!-- Листья -->
+          <g fill="#A3B18A" opacity=".55">
+            <path d="M92 402c-30-12-44-40-38-68 30 4 50 28 48 58Z"/>
+            <path d="M104 432c-26 4-48-8-58-30 24-12 50-2 60 20Z"/>
+            <path d="M470 350c28-14 38-42 30-68-28 8-44 34-40 62Z"/>
+            <path d="M462 388c26 2 48-10 56-32-24-10-50 0-58 22Z"/>
+          </g>
+
+          <!-- Следы лап -->
+          <g fill="#C67B4B" opacity=".2">
+            <use href="#i-paw" x="92" y="146" width="36" height="36" transform="rotate(-18 110 164)"/>
+            <use href="#i-paw" x="432" y="196" width="28" height="28" transform="rotate(20 446 210)"/>
+          </g>
+
+          <!-- Тень -->
+          <ellipse cx="285" cy="556" rx="196" ry="24" fill="#E8DFD0"/>
+
+          <!-- Хвост -->
+          <path d="M378 466c52-10 78-46 70-84" fill="none" stroke="#C67B4B" stroke-width="27" stroke-linecap="round"/>
+          <path d="M450 402c3-10 2-17 0-22" fill="none" stroke="#FFF8EE" stroke-width="27" stroke-linecap="round"/>
+
+          <!-- Задняя лапа и бедро -->
+          <ellipse cx="196" cy="486" rx="42" ry="47" fill="#C67B4B"/>
+          <path d="M166 518c-15 0-25 9-25 19s11 16 27 16h22v-35Z" fill="#FFF8EE"/>
+
+          <!-- Корпус -->
+          <path d="M225 312c-45 36-62 106-52 168 5 40 47 56 107 56s103-16 108-56c10-62-8-132-53-168Z" fill="#C67B4B"/>
+
+          <!-- Тёмное седло -->
+          <path d="M330 328c44 32 64 92 55 148-14 26-46 32-68 20 20-56 14-116-6-152Z" fill="#4A332A"/>
+
+          <!-- Белая грудка -->
+          <path d="M245 326c-20 40-22 112-7 162 14 26 66 26 80 0 16-50 13-122-7-162-20 16-46 16-66 0Z" fill="#FFF8EE"/>
+
+          <!-- Передние лапы -->
+          <rect x="230" y="420" width="42" height="128" rx="21" fill="#FFF8EE"/>
+          <rect x="292" y="420" width="42" height="128" rx="21" fill="#FFF8EE"/>
+          <ellipse cx="251" cy="546" rx="26" ry="14" fill="#FFF8EE"/>
+          <ellipse cx="313" cy="546" rx="26" ry="14" fill="#FFF8EE"/>
+          <g stroke="#E8DFD0" stroke-width="2.5" stroke-linecap="round">
+            <path d="M242 541v10M252 541v10M262 541v10"/>
+            <path d="M304 541v10M314 541v10M324 541v10"/>
+          </g>
+
+          <!-- Ошейник -->
+          <path d="M232 316q48 24 96 0l-3 22q-45 22-90 0Z" fill="#8BA888"/>
+          <circle cx="280" cy="352" r="12" fill="#D4A574"/>
+          <use href="#i-paw" x="272" y="344" width="16" height="16" style="color:#7A4A2E"/>
+
+          <!-- Голова -->
+          <path d="M195 232c0-58 34-88 85-88s85 30 85 88c0 56-34 92-85 92s-85-36-85-92Z" fill="#D4A574"/>
+
+          <!-- Белая проточина -->
+          <path d="M266 148q14-5 28 0c-4 32-8 58-10 80 8 18 6 44-4 58q-10 8-20 0c-10-14-12-40-4-58-2-22-6-48-10-80Z" fill="#FFF8EE"/>
+
+          <!-- Уши -->
+          <path d="M207 176c-31 0-49 27-49 68 0 45 12 86 37 93 20 5 33-15 31-45l-4-77c-2-25-6-39-15-39Z" fill="#8A5230"/>
+          <path d="M353 176c31 0 49 27 49 68 0 45-12 86-37 93-20 5-33-15-31-45l4-77c2-25 6-39 15-39Z" fill="#8A5230"/>
+          <path d="M190 205c-14 8-19 30-17 58 2 26 8 47 18 55" fill="none" stroke="#6E3F24" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+          <path d="M370 205c14 8 19 30 17 58-2 26-8 47-18 55" fill="none" stroke="#6E3F24" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+
+          <!-- Морда -->
+          <ellipse cx="280" cy="268" rx="62" ry="44" fill="#FFF8EE"/>
+          <ellipse cx="222" cy="256" rx="14" ry="8" fill="#D4A574" opacity=".45"/>
+          <ellipse cx="338" cy="256" rx="14" ry="8" fill="#D4A574" opacity=".45"/>
+
+          <!-- Глаза -->
+          <circle cx="238" cy="213" r="11" fill="#3E2723"/>
+          <circle cx="322" cy="213" r="11" fill="#3E2723"/>
+          <circle cx="241.5" cy="209.5" r="3.4" fill="#FFF8EE"/>
+          <circle cx="325.5" cy="209.5" r="3.4" fill="#FFF8EE"/>
+          <path d="M224 192q13-9 26-2M310 190q13-7 26 2" fill="none" stroke="#A65D32" stroke-width="5" stroke-linecap="round"/>
+
+          <!-- Нос и улыбка -->
+          <path d="M262 240q18-9 36 0c2 12-8 22-18 22s-20-10-18-22Z" fill="#3E2723"/>
+          <ellipse cx="274" cy="243" rx="5" ry="3" fill="#FFF8EE" opacity=".28"/>
+          <path d="M280 262v12m0 0q-14 14-28 2m28-2q14 14 28 2" fill="none" stroke="#3E2723" stroke-width="4" stroke-linecap="round"/>
+          <path d="M272 280q8 20 17 0-8-6-17 0Z" fill="#D99A8A"/>
+
+          <!-- Миска -->
+          <ellipse cx="430" cy="568" rx="74" ry="13" fill="#E8DFD0"/>
+          <path d="M368 520q4 46 62 46t62-46Z" fill="#8BA888"/>
+          <ellipse cx="430" cy="520" rx="62" ry="16" fill="#A3B18A"/>
+          <ellipse cx="430" cy="518" rx="49" ry="10" fill="#6F8B6C"/>
+          <g>
+            <ellipse cx="405" cy="516" rx="8" ry="5" fill="#C67B4B"/>
+            <ellipse cx="421" cy="511" rx="8" ry="5" fill="#A65D32"/>
+            <ellipse cx="439" cy="515" rx="8" ry="5" fill="#D4A574"/>
+            <ellipse cx="455" cy="512" rx="8" ry="5" fill="#C67B4B"/>
+            <ellipse cx="429" cy="521" rx="8" ry="5" fill="#D4A574"/>
+            <ellipse cx="447" cy="521" rx="7" ry="4.5" fill="#A65D32"/>
+          </g>
+          <path d="M383 534q8 20 30 24" fill="none" stroke="#FFF8EE" stroke-width="5" stroke-linecap="round" opacity=".4"/>
+          <circle cx="355" cy="570" r="5" fill="#C67B4B"/>
+          <circle cx="371" cy="580" r="4" fill="#A65D32"/>
+        </svg>
+
+        <div class="hero-badge hero-badge--top">
+          <span class="badge-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg></span>
+          <div><strong>Ветеринары одобряют</strong><small>12 диетологов в команде</small></div>
+        </div>
+
+        <div class="hero-badge hero-badge--bottom">
+          <span class="badge-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-scale"/></svg></span>
+          <div><strong>Сыт. И в форме.</strong><small>Без выклянчивания и лишнего веса</small></div>
+        </div>
+
+        <span class="hero-bubble" aria-hidden="true">Хрум!</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       БЛОК 3. О БРЕНДЕ
+       ========================================================== -->
+  <section class="section about" id="about" aria-labelledby="about-title">
+    <div class="container split">
+
+      <div class="about-visual" data-reveal>
+        <div class="lab-scene">
+          <div class="lab-stamp">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg>
+            Проверено<br><strong>каждая партия</strong>
+          </div>
+
+          <svg class="lab-bag" viewBox="0 0 160 200" role="img" aria-label="Упаковка корма БигльКорм"><use href="#bag"/></svg>
+
+          <span class="ingredient ingredient--1">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-meat"/></svg>Мясо 38%
+          </span>
+          <span class="ingredient ingredient--2">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-leaf"/></svg>Тыква и клетчатка
+          </span>
+          <span class="ingredient ingredient--3">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-fish"/></svg>Омега-3
+          </span>
+          <span class="ingredient ingredient--4">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wheat"/></svg>Без кукурузы и сои
+          </span>
+        </div>
+        <div class="lab-caption">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>
+          <p>От рецептуры до миски — один бренд и ноль секретов.</p>
+        </div>
+      </div>
+
+      <div class="about-copy" data-reveal>
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>О бренде</p>
+        <h2 id="about-title">Мы знаем биглей<br>не понаслышке</h2>
+
+        <p class="lead">Всё началось с бигля по имени Тортолла. Он находил еду там, где её не было, и убегал на прогулке там, где нельзя. Мы перепробовали десяток кормов — и не нашли ни одного, созданного именно для его породы.</p>
+        <p class="lead">Поэтому вместе с ветеринарами-диетологами мы собрали линейку, которая учитывает главное: бигли обожают есть, склонны к полноте и очень чувствительны к составу.</p>
+
+        <div class="about-facts">
+          <div class="fact"><strong>10 лет</strong><span>наблюдаем за породой и её потребностями</span></div>
+          <div class="fact"><strong>12</strong><span>ветеринаров-диетологов в команде</span></div>
+          <div class="fact"><strong>0</strong><span>красителей, усилителей вкуса и сахара</span></div>
+        </div>
+
+        <p class="signature">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-paw"/></svg>
+          <span><strong>Анна и Павел</strong> — основатели БигльКорм. И люди Тортоллы.</span>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       БЛОК 4. ПРЕИМУЩЕСТВА
+       ========================================================== -->
+  <section class="section section--sand benefits" id="benefits" aria-labelledby="benefits-title">
+    <div class="container">
+
+      <div class="section-head" data-reveal>
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Почему именно БигльКорм</p>
+        <h2 id="benefits-title">Биглю нельзя «как всем»</h2>
+        <p>У породы свой обмен веществ, свой аппетит и свой характер. Мы учли всё — от склонности к полноте до любви копаться в траве.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <article class="benefit" data-reveal>
+          <span class="card-index" aria-hidden="true">01</span>
+          <div class="benefit-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-scale"/></svg></div>
+          <h3>Вес под контролем</h3>
+          <p>Точная калорийность и L-карнитин. Бигль остаётся подтянутым даже при любимом режиме «дважды в день и чуть-чуть со стола».</p>
+        </article>
+
+        <article class="benefit" data-reveal>
+          <span class="card-index" aria-hidden="true">02</span>
+          <div class="benefit-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-leaf"/></svg></div>
+          <h3>Спокойное пищеварение</h3>
+          <p>Пробиотики, тыква и легкоусвояемый рис. Меньше вздутия, стабильный стул и никакого запаха из миски.</p>
+        </article>
+
+        <article class="benefit" data-reveal>
+          <span class="card-index" aria-hidden="true">03</span>
+          <div class="benefit-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolt"/></svg></div>
+          <h3>Энергия для длинных прогулок</h3>
+          <p>26% белка и правильные жиры: мышцы в тонусе, а сил хватает и на лес, и на игру, и на вечерний подвиг.</p>
+        </article>
+
+        <article class="benefit" data-reveal>
+          <span class="card-index" aria-hidden="true">04</span>
+          <div class="benefit-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-meat"/></svg></div>
+          <h3>Натуральные ингредиенты</h3>
+          <p>На первом месте — настоящее мясо, а не «продукты переработки». Без красителей, ароматизаторов и искусственного сахара.</p>
+        </article>
+
+        <article class="benefit" data-reveal>
+          <span class="card-index" aria-hidden="true">05</span>
+          <div class="benefit-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg></div>
+          <h3>Меньше риск аллергии</h3>
+          <p>Без кукурузы, сои и пшеницы — частых триггеров непереносимости. Есть формулы на индейке и ягнёнке для чувствительных собак.</p>
+        </article>
+
+        <article class="benefit" data-reveal>
+          <span class="card-index" aria-hidden="true">06</span>
+          <div class="benefit-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-stethoscope"/></svg></div>
+          <h3>Разработано с ветеринарами</h3>
+          <p>Рецептуры создавали диетологи вместе с породниками. Каждую партию проверяем в независимой лаборатории — паспорт качества прилагается.</p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       БЛОК 5. КАТАЛОГ ПРОДУКЦИИ
+       ========================================================== -->
+  <section class="section catalog" id="catalog" aria-labelledby="catalog-title">
+    <div class="container">
+
+      <div class="catalog-head" data-reveal>
+        <div class="section-head">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Каталог</p>
+          <h2 id="catalog-title">Рацион для каждого этапа жизни</h2>
+          <p>От первого прикуса до почтенного возраста. Одна порода — четыре продуманные формулы.</p>
+        </div>
+        <button class="btn btn--ghost" type="button" data-quiz>
+          Не знаю, что выбрать
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+
+      <!-- Быстрый подбор рациона -->
+      <div class="picker-strip" data-reveal>
+        <div class="picker-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bowl"/></svg></div>
+        <div>
+          <h3>Не угадываете с линейкой и порцией?</h3>
+          <p>Ответьте на 4 вопроса — соберём рацион под возраст, вес и активность вашего бигля. Это бесплатно и занимает минуту.</p>
+        </div>
+        <button class="btn btn--primary" type="button" data-quiz>Подобрать за 1 минуту</button>
+      </div>
+
+      <!-- Фильтр по возрасту -->
+      <div class="filter-bar" role="group" aria-label="Фильтр кормов по возрасту">
+        <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">Все товары</button>
+        <button class="filter-btn" type="button" data-filter="puppy" aria-pressed="false">Щенки</button>
+        <button class="filter-btn" type="button" data-filter="adult" aria-pressed="false">Взрослые</button>
+        <button class="filter-btn" type="button" data-filter="senior" aria-pressed="false">Пожилые</button>
+        <button class="filter-btn" type="button" data-filter="extra" aria-pressed="false">Добавки и лакомства</button>
+        <p class="filter-count" id="catalogCount" aria-live="polite">6 позиций</p>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <!-- Puppy -->
+        <article class="product" data-age="puppy" data-reveal>
+          <div class="product-media" style="--tint:#EAF0E6;--bag:#8BA888">
+            <span class="tag tag--green">2–12 месяцев</span>
+            <svg class="bag" viewBox="0 0 160 200" role="img" aria-label="Упаковка БигльКорм Puppy"><use href="#bag"/></svg>
+            <span class="weight-badge">2 кг</span>
+          </div>
+          <div class="product-body">
+            <h3>БигльКорм Puppy</h3>
+            <p class="product-desc">Для маленького исследовательского носа: ягнёнок и рис для роста без лишнего набора веса.</p>
+            <ul class="product-facts"><li>Ягнёнок и рис</li><li>28% белка</li><li>Кальций + DHA</li></ul>
+            <details class="composition">
+              <summary>Состав и анализ<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+              <div class="composition-content">
+                <strong>Состав:</strong> дегидрированный ягнёнок 38%, рис 22%, овёс, животный жир, тыква, льняное семя, пробиотик FOS, глюкозамин.
+                <ul>
+                  <li>Белок — 28% · Жир — 16%</li>
+                  <li>Клетчатка — 3,5% · Зола — 6,5%</li>
+                  <li>395 ккал / 100 г</li>
+                </ul>
+              </div>
+            </details>
+            <div class="product-bottom">
+              <div class="price"><strong>1 890 ₽</strong><small>за упаковку 2 кг</small></div>
+              <button class="btn btn--primary" type="button" data-order="puppy">Заказать</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Adult -->
+        <article class="product" data-age="adult" data-reveal>
+          <div class="product-media" style="--tint:#F7E7D8;--bag:#C67B4B">
+            <span class="tag tag--accent">1–6 лет</span>
+            <svg class="bag" viewBox="0 0 160 200" role="img" aria-label="Упаковка БигльКорм Adult"><use href="#bag"/></svg>
+            <span class="weight-badge">3 кг</span>
+          </div>
+          <div class="product-body">
+            <h3>БигльКорм Adult</h3>
+            <p class="product-desc">Базовый рацион для взрослого бигля. Сытный, сбалансированный, без «съесть и тут же проголодаться».</p>
+            <ul class="product-facts"><li>Индейка и рис</li><li>26% белка</li><li>L-карнитин</li></ul>
+            <details class="composition">
+              <summary>Состав и анализ<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+              <div class="composition-content">
+                <strong>Состав:</strong> дегидрированная индейка 40%, рис 24%, овёс, утиный жир, тыква, цикорий, пробиотик MOS, омега-3.
+                <ul>
+                  <li>Белок — 26% · Жир — 14%</li>
+                  <li>Клетчатка — 4,5% · Зола — 6%</li>
+                  <li>365 ккал / 100 г</li>
+                </ul>
+              </div>
+            </details>
+            <div class="product-bottom">
+              <div class="price"><strong>2 290 ₽</strong><small>за упаковку 3 кг</small></div>
+              <button class="btn btn--primary" type="button" data-order="adult">Заказать</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Adult Active -->
+        <article class="product" data-age="adult" data-reveal>
+          <div class="product-media" style="--tint:#F5EDE0;--bag:#A65D32">
+            <span class="tag tag--accent">1–6 лет · активные</span>
+            <svg class="bag" viewBox="0 0 160 200" role="img" aria-label="Упаковка БигльКорм Adult Active"><use href="#bag"/></svg>
+            <span class="weight-badge">3 кг</span>
+          </div>
+          <div class="product-body">
+            <h3>БигльКорм Adult Active</h3>
+            <p class="product-desc">Для тех, кто бежит раньше, чем вы надели куртку. Больше энергии — без рыхлых мышц.</p>
+            <ul class="product-facts"><li>Ягнёнок и гречка</li><li>30% белка</li><li>Монобелок</li></ul>
+            <details class="composition">
+              <summary>Состав и анализ<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+              <div class="composition-content">
+                <strong>Состав:</strong> дегидрированный ягнёнок 42%, гречка 20%, животный жир, свёкла, водоросли, глюкозамин, хондроитин.
+                <ul>
+                  <li>Белок — 30% · Жир — 18%</li>
+                  <li>Клетчатка — 3% · Зола — 7%</li>
+                  <li>405 ккал / 100 г</li>
+                </ul>
+              </div>
+            </details>
+            <div class="product-bottom">
+              <div class="price"><strong>2 590 ₽</strong><small>за упаковку 3 кг</small></div>
+              <button class="btn btn--primary" type="button" data-order="active">Заказать</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Senior & Light -->
+        <article class="product" data-age="senior" data-reveal>
+          <div class="product-media" style="--tint:#EAF0E6;--bag:#A3B18A">
+            <span class="tag tag--green">7+ лет / контроль веса</span>
+            <svg class="bag" viewBox="0 0 160 200" role="img" aria-label="Упаковка БигльКорм Senior and Light"><use href="#bag"/></svg>
+            <span class="weight-badge">3 кг</span>
+          </div>
+          <div class="product-body">
+            <h3>БигльКорм Senior & Light</h3>
+            <p class="product-desc">Меньше калорий — тот же объём порции. Для возрастных биглей и взрослых любителей поесть.</p>
+            <ul class="product-facts"><li>Индейка и тыква</li><li>−18% калорий</li><li>Глюкозамин</li></ul>
+            <details class="composition">
+              <summary>Состав и анализ<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+              <div class="composition-content">
+                <strong>Состав:</strong> дегидрированная индейка 36%, тыква 12%, рис, овёс, клетчатка, льняное масло, глюкозамин, МГК.
+                <ul>
+                  <li>Белок — 27% · Жир — 9%</li>
+                  <li>Клетчатка — 6% · Зола — 6%</li>
+                  <li>310 ккал / 100 г</li>
+                </ul>
+              </div>
+            </details>
+            <div class="product-bottom">
+              <div class="price"><strong>2 490 ₽</strong><small>за упаковку 3 кг</small></div>
+              <button class="btn btn--primary" type="button" data-order="light">Заказать</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mobility -->
+        <article class="product" data-age="extra" data-reveal>
+          <div class="product-media" style="--tint:#F5EDE0;--bag:#7E9B86">
+            <span class="tag">Добавка · все возрасты</span>
+            <svg class="bag" viewBox="0 0 160 200" role="img" aria-label="Упаковка добавки БигльКорм Mobility"><use href="#bag"/></svg>
+            <span class="weight-badge">300 г</span>
+          </div>
+          <div class="product-body">
+            <h3>БигльКорм Mobility</h3>
+            <p class="product-desc">Порошок-добавка для суставов. Короткие ноги и большие планы требуют поддержки.</p>
+            <ul class="product-facts"><li>Глюкозамин + МГК</li><li>На 60 дней</li><li>Вкусно в еде</li></ul>
+            <details class="composition">
+              <summary>Состав и анализ<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+              <div class="composition-content">
+                <strong>Состав:</strong> глюкозамин гидрохлорид, метилсульфонилметан (МСМ), гидролизованный коллаген, экстракт зелёногубчатой мидии.
+                <ul>
+                  <li>1 мерная ложка в день для собаки 10–14 кг</li>
+                  <li>Курс — 2 месяца, затем перерыв 1 месяц</li>
+                </ul>
+              </div>
+            </details>
+            <div class="product-bottom">
+              <div class="price"><strong>1 290 ₽</strong><small>банка 300 г</small></div>
+              <button class="btn btn--primary" type="button" data-order="joints">Заказать</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Treats -->
+        <article class="product" data-age="extra" data-reveal>
+          <div class="product-media" style="--tint:#F7E7D8;--bag:#D4A574">
+            <span class="tag">Лакомство · с 3 месяцев</span>
+            <svg class="bag" viewBox="0 0 160 200" role="img" aria-label="Упаковка лакомств БигльКорм Treats"><use href="#bag"/></svg>
+            <span class="weight-badge">150 г</span>
+          </div>
+          <div class="product-body">
+            <h3>БигльКорм Treats</h3>
+            <p class="product-desc">Хрустящие кубики для дрессировки. 6 ккал в штуке — можно хвалить часто и не бояться веса.</p>
+            <ul class="product-facts"><li>Индейка 90%</li><li>6 ккал / шт.</li><li>Без злаков</li></ul>
+            <details class="composition">
+              <summary>Состав и анализ<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+              <div class="composition-content">
+                <strong>Состав:</strong> индейка 90%, растительный глицерин, розмарин.
+                <ul>
+                  <li>Белок — 38% · Жир — 12%</li>
+                  <li>Не более 10% суточной калорийности рациона</li>
+                </ul>
+              </div>
+            </details>
+            <div class="product-bottom">
+              <div class="price"><strong>690 ₽</strong><small>пауч 150 г</small></div>
+              <button class="btn btn--primary" type="button" data-order="treats">Заказать</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="catalog-note">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>
+        Не подошёл корм? Вернём деньги за незакрытую упаковку в течение 30 дней.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       БЛОК 6. ОТЗЫВЫ ВЛАДЕЛЬЦЕВ
+       ========================================================== -->
+  <section class="section section--sand reviews" id="reviews" aria-labelledby="reviews-title">
+    <div class="container">
+
+      <div class="reviews-head" data-reveal>
+        <div class="section-head" style="margin-bottom:0">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Отзывы владельцев</p>
+          <h2 id="reviews-title">Бигли голосуют хвостом</h2>
+          <p>Мы не просим красивых слов. Мы просим рассказать, как изменилась жизнь собаки и её человека.</p>
+        </div>
+
+        <div class="rating-summary">
+          <div class="rating-number">4,9</div>
+          <div>
+            <svg class="stars-icon" viewBox="0 0 100 20" role="img" aria-label="5 из 5"><use href="#i-stars"/></svg>
+            <p>386 проверенных отзывов</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-track" id="reviewsTrack" tabindex="0" role="region" aria-label="Отзывы владельцев биглей. Листайте стрелками или свайпом.">
+
+        <article class="review">
+          <svg class="stars-icon" viewBox="0 0 100 20" role="img" aria-label="Оценка 5 из 5"><use href="#i-stars"/></svg>
+          <blockquote>Локи всегда был «в теле». За четыре месяца на Adult Active ушёл 1,6 кг, а энергии стало даже больше. Наконец-то корм, после которого нет вздутия.</blockquote>
+          <div class="review-person">
+            <span class="review-avatar" aria-hidden="true">ЕК</span>
+            <div><strong>Екатерина</strong><span>бигль Локи, 3 года</span></div>
+            <span class="review-verified"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Покупка</span>
+          </div>
+        </article>
+
+        <article class="review">
+          <svg class="stars-icon" viewBox="0 0 100 20" role="img" aria-label="Оценка 5 из 5"><use href="#i-stars"/></svg>
+          <blockquote>Нюша — та ещё артистка: отказывалась от самых дорогих кормов. Здесь съела первую порцию с первой секунды. А состав я читаю без словаря — и это подкупает.</blockquote>
+          <div class="review-person">
+            <span class="review-avatar" aria-hidden="true">ДМ</span>
+            <div><strong>Дмитрий</strong><span>бигль Нюша, 5 лет</span></div>
+            <span class="review-verified"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Покупка</span>
+          </div>
+        </article>
+
+        <article class="review">
+          <svg class="stars-icon" viewBox="0 0 100 20" role="img" aria-label="Оценка 5 из 5"><use href="#i-stars"/></svg>
+          <blockquote>Арчи замедлился, и мы боялись, что он наберёт вес. Senior & Light решил проблему: ровная кондиция, шерсть блестит, а с добавлением Mobility он снова бодро ходит на длинные прогулки.</blockquote>
+          <div class="review-person">
+            <span class="review-avatar" aria-hidden="true">АН</span>
+            <div><strong>Анна</strong><span>бигль Арчи, 8 лет</span></div>
+            <span class="review-verified"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Покупка</span>
+          </div>
+        </article>
+
+        <article class="review">
+          <div style="display:flex;gap:2px;color:var(--accent);margin-bottom:16px" role="img" aria-label="Оценка 4 из 5">
+            <svg class="icon" viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><use href="#i-star"/></svg>
+            <svg class="icon" viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><use href="#i-star"/></svg>
+            <svg class="icon" viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><use href="#i-star"/></svg>
+            <svg class="icon" viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><use href="#i-star"/></svg>
+            <svg class="icon" viewBox="0 0 24 24" style="fill:currentColor;stroke:none;opacity:.25"><use href="#i-star"/></svg>
+          </div>
+          <blockquote>Взяли пробник для щенка. Через неделю стул наладился, а через месяц Пончик перестал выклянчивать еду со стола — сыт реально надолго. Минус за то, что ждать доставку пришлось четыре дня.</blockquote>
+          <div class="review-person">
+            <span class="review-avatar" aria-hidden="true">СГ</span>
+            <div><strong>Сергей</strong><span>бигль Пончик, 7 месяцев</span></div>
+            <span class="review-verified"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>Покупка</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="carousel-controls" style="justify-content:center">
+        <button class="round-btn prev" id="reviewPrev" type="button" aria-label="Предыдущие отзывы">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+        <button class="round-btn" id="reviewNext" type="button" aria-label="Следующие отзывы">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+      <div class="carousel-dots" id="reviewDots" role="group" aria-label="Выбор страницы отзывов"></div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       БЛОК 7. КОНТАКТЫ И ФОРМА ОБРАТНОЙ СВЯЗИ
+       ========================================================== -->
+  <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+    <div class="container contacts-grid">
+
+      <div class="contacts-copy" data-reveal>
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Мы на связи</p>
+        <h2 id="contacts-title">Остались вопросы?<br>Мы поможем!</h2>
+        <p class="lead">Сколько грамм? Как перевести со старого корма? Можно ли смешивать с влажным? Напишите нам — ответит человек, который разбирается в биглях.</p>
+
+        <ul class="contact-list">
+          <li class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>
+            <div>
+              <span>Телефон консультанта</span>
+              <a href="tel:+74951204567">+7 (495) 120-45-67</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mail"/></svg>
+            <div>
+              <span>Почта</span>
+              <a href="mailto:hello@biglkorm.ru">hello@biglkorm.ru</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>
+            <div>
+              <span>Пункт выдачи и шоурум</span>
+              <strong>Москва, ул. Лесная, 12, стр. 2</strong>
+              <small>Вход со двора, ищем миску у двери 🐾</small>
+            </div>
+          </li>
+          <li class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clock"/></svg>
+            <div>
+              <span>Часы работы</span>
+              <strong>Пн–пт: 9:00–19:00 · Сб: 10:00–16:00</strong>
+              <small>Вс — выходной. Бигли гуляют.</small>
+            </div>
+          </li>
+        </ul>
+
+        <div class="socials">
+          <a class="social" href="https://t.me/biglkorm" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-telegram"/></svg>Telegram
+          </a>
+          <a class="social" href="https://vk.com/biglkorm" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-vk"/></svg>ВКонтакте
+          </a>
+          <a class="social" href="https://www.youtube.com/@biglkorm" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-youtube"/></svg>YouTube
+          </a>
+        </div>
+      </div>
+
+      <div class="form-card" data-reveal>
+        <form id="contactForm" aria-label="Форма обратной связи">
+          <h3>Напишите нам</h3>
+          <p class="form-intro">Ответим в течение 15 минут в рабочее время. Без роботов и скриптов.</p>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="contactName">Ваше имя <span class="req">*</span></label>
+              <input id="contactName" name="name" type="text" required minlength="2" maxlength="60" autocomplete="name" placeholder="Анна">
+            </div>
+            <div class="field">
+              <label for="contactPhone">Телефон <span class="req">*</span></label>
+              <input id="contactPhone" name="phone" type="tel" required pattern="[0-9+()\s-]{10,20}" inputmode="tel" autocomplete="tel" placeholder="+7 (999) 123-45-67">
+              <p class="field-hint">Или оставьте e-mail ниже — как удобнее.</p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="contactEmail">E-mail</label>
+            <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="you@example.ru">
+          </div>
+
+          <div class="field">
+            <label for="contactMessage">Сообщение <span class="req">*</span></label>
+            <textarea id="contactMessage" name="message" required minlength="5" maxlength="1500" placeholder="Расскажите о вашем бигле: возраст, вес, активность и что беспокоит."></textarea>
+          </div>
+
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span>Согласен на обработку персональных данных и ознакомлен с <button type="button" class="text-btn" style="min-height:auto;padding:0;font-size:inherit" data-legal="privacy">политикой конфиденциальности</button>.</span>
+          </label>
+
+          <button class="btn btn--primary btn--block btn--lg" type="submit">
+            Отправить
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </button>
+
+          <p class="form-note">Демонстрационная форма: данные остаются в браузере и не отправляются на сервер.</p>
+        </form>
+
+        <div class="success-panel" id="contactSuccess" hidden role="status">
+          <div class="success-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg></div>
+          <h3>Спасибо, <span id="contactSuccessName">друг</span>!</h3>
+          <p>Все поля заполнены корректно. Это демо-версия: заявка осталась в браузере. На боевом сайте консультант ответил бы вам в течение 15 минут.</p>
+          <button class="btn btn--ghost" type="button" id="contactAgain">Написать ещё раз</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     БЛОК 8. ПОДВАЛ
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#top" aria-label="БигльКорм — на главную">
+          <span class="logo-mark">
+            <svg class="logo-face" viewBox="0 0 100 100" aria-hidden="true"><use href="#beagle-face"/></svg>
+          </span>
+          <span class="logo-text">БигльКорм<span class="logo-sub">породный рацион</span></span>
+        </a>
+        <p>Корм, разработанный с любовью к одной удивительной породе. Для биглей, которые бегают, нюхают, любят и живут долго.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Навигация в подвале">
+        <h4>Разделы</h4>
+        <ul>
+          <li><a href="#about">О бренде</a></li>
+          <li><a href="#benefits">Преимущества</a></li>
+          <li><a href="#catalog">Каталог кормов</a></li>
+          <li><a href="#reviews">Отзывы владельцев</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h4>Связь</h4>
+        <p><a href="tel:+74951204567">+7 (495) 120-45-67</a></p>
+        <p><a href="mailto:hello@biglkorm.ru">hello@biglkorm.ru</a></p>
+        <p>Москва, ул. Лесная, 12, стр. 2</p>
+        <p>Пн–пт 9:00–19:00 · Сб 10:00–16:00</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 БигльКорм. Все права защищены.</p>
+      <div class="footer-legal">
+        <button type="button" data-legal="privacy">Политика конфиденциальности</button>
+        <button type="button" data-legal="terms">Пользовательское соглашение</button>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- ============================================================
+     ДИАЛОГ: ПОДБОР РАЦИОНА
+     ============================================================ -->
+<dialog id="quizDialog" aria-labelledby="quizTitle">
+  <div class="dialog-inner">
+    <div class="dialog-head">
+      <div>
+        <p class="eyebrow">Бесплатный подбор</p>
+        <h2 id="quizTitle">Рацион для вашего бигля</h2>
+      </div>
+      <button class="dialog-close" type="button" data-close aria-label="Закрыть подбор">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+
+    <p class="dialog-sub">Четыре коротких вопроса — и мы подскажем формулу и ориентировочную порцию.</p>
+
+    <form id="quizForm">
+      <div class="field">
+        <label for="dogName">Кличка бигля <span class="req">*</span></label>
+        <input id="dogName" name="dogName" type="text" required minlength="2" maxlength="40" placeholder="Например, Тортолла">
+      </div>
+
+      <fieldset class="fieldset">
+        <legend>Сколько ему лет?</legend>
+        <div class="options options--3">
+          <label class="option">
+            <input type="radio" name="age" value="puppy" required checked>
+            <span>Щенок<small>до 12 месяцев</small></span>
+          </label>
+          <label class="option">
+            <input type="radio" name="age" value="adult">
+            <span>Взрослый<small>1–6 лет</small></span>
+          </label>
+          <label class="option">
+            <input type="radio" name="age" value="senior">
+            <span>Пожилой<small>7 лет и больше</small></span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label for="dogWeight">Вес собаки, кг <span class="req">*</span></label>
+        <div class="input-with-unit">
+          <input id="dogWeight" name="weight" type="number" required min="4" max="30" step="0.5" value="12" inputmode="decimal">
+          <span>кг</span>
+        </div>
+        <p class="field-hint">Ориентир для породы — 9–14 кг. Укажите фактический вес, а не желаемый.</p>
+      </div>
+
+      <fieldset class="fieldset">
+        <legend>Насколько он активен?</legend>
+        <div class="options options--3">
+          <label class="option">
+            <input type="radio" name="activity" value="calm" required>
+            <span>Спокойный<small>прогулки шагом</small></span>
+          </label>
+          <label class="option">
+            <input type="radio" name="activity" value="moderate" checked>
+            <span>Умеренный<small>2 прогулки в день</small></span>
+          </label>
+          <label class="option">
+            <input type="radio" name="activity" value="active">
+            <span>Ураган<small>бегает и охотится</small></span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label for="dogGoal">Есть особые задачи?</label>
+        <select id="dogGoal" name="goal">
+          <option value="none">Нет, просто здоровый рацион</option>
+          <option value="weight">Склонность к полноте</option>
+          <option value="digest">Чувствительное пищеварение</option>
+          <option value="joints">Поддержка суставов</option>
+          <option value="allergy">Реакция на курицу</option>
+        </select>
+      </div>
+
+      <button class="btn btn--primary btn--block btn--lg" type="submit">
+        Показать рекомендацию
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </button>
+      <p class="form-note">Подбор носит рекомендательный характер и не заменяет консультацию ветеринара.</p>
+    </form>
+
+    <!-- Результат подбора -->
+    <div id="quizResult" hidden aria-live="polite">
+      <div class="result">
+        <span class="tag tag--green" id="resultTag">Рекомендация ветеринарной команды</span>
+        <h3 id="resultTitle">БигльКорм Adult</h3>
+        <p class="result-reason" id="resultReason"></p>
+
+        <div class="portion-box">
+          <div><strong id="resultPortion">240 г</strong><span> в сутки</span></div>
+          <div><strong id="resultMeals">2</strong><span> кормления по <span id="resultPerMeal">120 г</span></span></div>
+        </div>
+
+        <p class="result-tips">
+          <strong>Переводите постепенно:</strong> дни 1–2 — 25% нового корма, 3–4 — 50%, 5–6 — 75%, с 7-го дня — полностью. Свежая вода должна быть всегда.
+          <br><br>Порция ориентировочная: точную норму корректируют по кондиции тела и активности.
+        </p>
+
+        <div class="result-actions">
+          <button class="btn btn--primary btn--block" type="button" id="resultOrder">Заказать этот корм</button>
+          <button class="btn btn--ghost btn--block" type="button" id="resultConsult">Уточнить у консультанта</button>
+          <button class="text-btn" type="button" id="quizReset">Изменить параметры</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</dialog>
+
+<!-- ============================================================
+     ДИАЛОГ: ЗАКАЗ
+     ============================================================ -->
+<dialog id="orderDialog" aria-labelledby="orderTitle">
+  <div class="dialog-inner">
+    <div class="dialog-head">
+      <div>
+        <p class="eyebrow">Оформление заявки</p>
+        <h2 id="orderTitle">Заказ БигльКорм</h2>
+      </div>
+      <button class="dialog-close" type="button" data-close aria-label="Закрыть заказ">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+
+    <div id="orderFormWrap">
+      <div class="order-summary">
+        <svg class="order-thumb" id="orderBag" viewBox="0 0 160 200" aria-hidden="true"><use href="#bag"/></svg>
+        <div>
+          <h3 id="orderName">БигльКорм Adult</h3>
+          <p id="orderMeta">1–6 лет · 3 кг</p>
+          <strong id="orderPrice">2 290 ₽</strong>
+        </div>
+      </div>
+
+      <form id="orderForm">
+        <div class="field">
+          <label for="orderQty">Количество упаковок</label>
+          <div class="stepper">
+            <button type="button" id="qtyMinus" aria-label="Уменьшить количество"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-minus"/></svg></button>
+            <input id="orderQty" type="number" min="1" max="20" step="1" value="1" required inputmode="numeric" aria-label="Количество упаковок">
+            <button type="button" id="qtyPlus" aria-label="Увеличить количество"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg></button>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="orderPerson">Ваше имя <span class="req">*</span></label>
+            <input id="orderPerson" name="name" type="text" required minlength="2" maxlength="60" autocomplete="name" placeholder="Анна">
+          </div>
+          <div class="field">
+            <label for="orderPhone">Телефон <span class="req">*</span></label>
+            <input id="orderPhone" name="phone" type="tel" required pattern="[0-9+()\s-]{10,20}" inputmode="tel" autocomplete="tel" placeholder="+7 (999) 123-45-67">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="orderDelivery">Как получить?</label>
+          <select id="orderDelivery" name="delivery">
+            <option value="courier">Курьером по Москве — 390 ₽</option>
+            <option value="cdek">СДЭК по России — от 290 ₽</option>
+            <option value="pickup">Самовывоз в Москве — бесплатно</option>
+          </select>
+        </div>
+
+        <div class="order-total">
+          <span>Итого за корм</span>
+          <strong id="orderTotal">2 290 ₽</strong>
+        </div>
+
+        <label class="consent">
+          <input type="checkbox" required>
+          <span>Согласен на обработку персональных данных согласно <button type="button" class="text-btn" style="min-height:auto;padding:0;font-size:inherit" data-legal="privacy">политике конфиденциальности</button>.</span>
+        </label>
+
+        <button class="btn btn--primary btn--block btn--lg" type="submit">Оформить заявку</button>
+        <p class="form-note">Демо-формат: заявка не передаётся на сервер и ни к чему вас не обязывает.</p>
+      </form>
+    </div>
+
+    <div class="success-panel" id="orderSuccess" hidden role="status">
+      <div class="success-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg></div>
+      <h3>Заявка сформирована!</h3>
+      <p id="orderSuccessText"></p>
+      <button class="btn btn--primary" type="button" data-close>Отлично</button>
+    </div>
+
+  </div>
+</dialog>
+
+<!-- ============================================================
+     ДИАЛОГ: ПРАВОВЫЕ ДОКУМЕНТЫ
+     ============================================================ -->
+<dialog id="legalDialog" aria-labelledby="legalTitle">
+  <div class="dialog-inner">
+    <div class="dialog-head">
+      <h2 id="legalTitle">Политика конфиденциальности</h2>
+      <button class="dialog-close" type="button" data-close aria-label="Закрыть документ">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+    <div class="legal-body" id="legalBody"></div>
+  </div>
+</dialog>
+
+<!-- ============================================================
+     СКРИПТЫ: без библиотек и внешних зависимостей
+     ============================================================ -->
+<script src="js/main.js"></script>
+</body>
+</html>
